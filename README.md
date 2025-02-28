@@ -1,16 +1,43 @@
-# app27
+**FIRST APPLICATION: STORY APPLICATION FOR KIDS READ ME**
+Description :
+Project Overview
 
-A new Flutter project.
+The Story Application is an interactive mobile application developed using Flutter and Dart. It categorizes and displays stories for users based on their reading level. The application also includes a quiz feature to enhance user engagement and comprehension, with data stored using JSON and SQFlite.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+Home Page
 
-A few resources to get you started if this is your first Flutter project:
+Displays categories: Beginner, Intermediate, Advanced.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Allows users to select a category to view relevant stories.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Story Index Page
+
+Lists 10 stories under the selected category.
+
+Displays story titles as clickable links leading to the story page.
+
+Story Page
+
+Displays the full text of the selected story.
+
+Includes a Quiz button for users to test their comprehension.
+
+Quiz Page
+
+Presents 5 multiple-choice questions (MCQs) related to the story.
+
+Provides an interactive interface for selecting answers.
+
+Result Pop-Up
+
+Displays quiz results after submission.
+
+Shows the user's score and correct answers.
+
+Technology Stack
+
+Frontend & Backend: Flutter & Dart
+
+Database: JSON & SQFlite (for local storage)
